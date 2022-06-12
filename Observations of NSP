@@ -1,0 +1,15 @@
+1. You need multi authentication system.
+2. Dashboard for all type of user but will have different priviledge depends on their role.
+3. You have to create an access control.          #Learn ACL (Access Control List) if you 
+                                                   decide to build your project in laravel 
+                                                   framework then i suggest to know about 
+                                                   spatie package for ACL. 
+4. You need establish a relational database system - MySQL is adequate for this sytem. Think about future of the sytem and structured 
+   the DB robustly. Define all the relations and fields, datatype, keys. I strongly suggest that before coding implementation you should 
+   build your DB struture proficiently.
+5. You need a guest space and clarify how long they can interact with the system.
+6. Do you want any preference among clubs or students? If the answer is yes, then describe what will be measurements?
+7. Will student/club have a profile? And when they will query whether their profile information should access/shown by others or not?
+8. Do you want integrate any payment gateway for your donation?
+9. Do you want add a section for submit CV in job post?
+10. Will posts or events need an react/voting interface like social media?
