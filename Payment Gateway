@@ -1,0 +1,13 @@
+As you aren't launching your application on a live server, you can use test payment gateway which seems to real usage gateway.
+
+SSLcommerz - is your dummy API which gives all the functionality you need to get for a real-time system. The provided sandbox is need to test whether 
+             your system is ready for succesful publication.
+             
+             
+Official website : https://developer.sslcommerz.com/
+Documentation : https://developer.sslcommerz.com/doc/v4/
+
+Firstly, you have to create a sandbox account and use valid email where you will get credentials and login sslcommerz as merchant.
+Login url : Merchant Panel URL: https://sandbox.sslcommerz.com/manage/              #You've to submit username and password which is registered by you.
+
+Laravel integration repository : https://github.com/sslcommerz/SSLCommerz-Laravel
