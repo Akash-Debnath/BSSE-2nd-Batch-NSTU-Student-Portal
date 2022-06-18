@@ -5,8 +5,10 @@ will store id of clubs in which they're connected; users table must have a field
 At the same way, clubs table must have field for user_id to hold connected user details; clubs table need a status field to identify whether an user
 requested or accepted; clubs table must have a field for post_id or event_id to track all their posts. 
 
-Then, query table must contatin user_id field and store comments. If you want to keep an user all comments you can create comments table and store 
-their query_id or post_id, user_id. 
+Then, query table must contatin user_id field and store comments. 
+
+If you want to keep an user all comments you can create comments table and store their query_id or post_id, user_id. If you want to keep a section
+for up-vote and down-vote or ratings,  you have to keep a field for this.
 
 N.B. It just an idea how you should build your db schema. You have to find out all relations among db tables.
 
