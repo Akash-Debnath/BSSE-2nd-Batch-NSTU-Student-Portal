@@ -1,0 +1,26 @@
+#Database
+When creating the db schema you should think about all relations among components. Such as - users table must need a field for store `club_id` and 
+will store id of clubs in which they're connected; users table must have a field to keep query id if they post any query.
+
+At the same way, clubs table must have field for user_id to hold connected user details; clubs table need a status field to identify whether an user
+requested or accepted; clubs table must have a field for post_id or event_id to track all their posts. 
+
+Then, query table must contatin user_id field and store comments. If you want to keep an user all comments you can create comments table and store 
+their query_id or post_id, user_id. 
+
+N.B. It just an idea how you should build your db schema. You have to find out all relations among db tables.
+
+
+
+#UI
+For creating post or query, you can use summernote instead of textarea. 
+
+For searching post or any other cirteria, select2 is a good choice.
+
+You should build up your ui design for user profile, group profile, post/query creation and the system appearance. 
+
+Design header, footer, navbar/sidebar.
+
+
+N.B. Don't panic about inter-connection of these ui components, you can design it separately and consolidate it in the time of backend development 
+but keep in mind as css should not conflict.
