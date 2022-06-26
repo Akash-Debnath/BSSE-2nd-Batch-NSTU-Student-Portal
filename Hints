@@ -15,9 +15,11 @@ N.B. It just an idea how you should build your db schema. You have to find out a
 
 
 #UI
-For creating post or query, you can use summernote instead of textarea. 
+For creating post or query, you can use `summernote` instead of textarea. 
 
-For searching post or any other cirteria, select2 is a good choice.
+For searching post or any other cirteria, `select2` is a good choice.
+
+For grouping few users on department or any other criteria can use `duallistbox` a bootstrap plgin. 
 
 You should build up your ui design for user profile, group profile, post/query creation and the system appearance. 
 
